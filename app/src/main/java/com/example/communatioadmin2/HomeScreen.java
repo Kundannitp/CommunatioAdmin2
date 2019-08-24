@@ -35,10 +35,10 @@ public class HomeScreen extends AppCompatActivity implements BottomNavigationVie
             case R.id.navigation_home:
                 fragment=new Home();
                 break;
-            /*case R.id.navigation_notifications:
-                fragment=new notifications();
+            case R.id.navigation_notifications:
+                fragment=new Notifications();
                 break;
-            case R.id.navigation_dashboard:
+           /* case R.id.navigation_dashboard:
                 fragment= new fragmentnotes();
                 break;*/
         }
